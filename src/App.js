@@ -41,7 +41,7 @@ function App() {
   return (
     <>
     <Router>
-    <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode}  />
+    <Navbar title="TextAnalyzer" mode={mode} toggleMode={toggleMode}  />
     <Alert alert={alert}/>
     <Switch>
     {/* /users --> Component 1
@@ -51,7 +51,7 @@ function App() {
             <Footer/>
           </Route>
           <Route exact path="/">
-            <TextForm showAlert={showAlert} heading="Try TextUtils - word counter, character counter, remove extra spaces" mode={mode}/>
+            <TextForm showAlert={showAlert} heading="Try TextAnalyzer - word counter, character counter, remove extra spaces" mode={mode}/>
           </Route>
     </Switch>
     </Router>
